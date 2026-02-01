@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import image from '../public/illustration.png';
 
 function App() {
 
@@ -39,7 +38,6 @@ function App() {
         </div>
         {/* Правый див */}
         <div>
-            <img src={image} style={{width: 200}}></img>
         </div>
       </div>
     </>
